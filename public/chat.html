@@ -1,0 +1,54 @@
+  
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" type="text/css" href="/style.css">
+ <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <div id="menu">
+            <div class="containerr">
+            <label for="rooms">Choisire votre room</label>
+                <select name="rooms" id="rooms">
+                <option value="java">java</option>
+                <option value="c">C</option>
+                <option value="php">PHP</option>
+            </select>
+            <button id="btnen">Entrer</button>
+        </div>
+        </div>
+       <div id="chatroom">
+        <div class="menu">
+            <a href="#" class="back"><i class="fa fa-angle-left"></i> <img src="doughnut.png" draggable="false"/></a>
+            <div class="name">Chat.io</div>
+            <div class="members"></div>
+        </div>
+    
+    <ol class="chat">
+      
+            
+      
+    </ol>
+    
+    <div class="typezone"> 
+        
+            <p id="broad"></p>
+       
+ <textarea id="message" type="text" placeholder="Say something"></textarea>
+ <button id="send" class="button-30" role="button">Send</button>
+</div>
+
+
+</div>
+    </body>
+    </html>
+
+<script type="text/javascript" src="/client.js"></script>
+</body>
+</html>
